@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/set_pid_gains
+Content-Type: application/json
+
+{
+  "Kp": 1.0,
+  "Ki": 0.5,
+  "Kd": 0.1
+}

@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/predict_fuel/
+Content-Type: application/json
+
+{
+  "speed_kmh": 120,
+  "engine_rpm": 3000,
+  "throttle_position": 50,
+  "coolant_temp": 90
+}

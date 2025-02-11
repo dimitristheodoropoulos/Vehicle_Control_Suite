@@ -1,0 +1,67 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and debug files
+*.log
+*.out
+*.err
+*.pid
+*.txt
+
+# Ignore environment variables & config files
+.env
+*.ini
+*.cfg
+*.json
+
+# Ignore database files
+*.db
+*.sqlite3
+influxdb_data/
+
+# Ignore VSCode and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore system files (Mac & Linux)
+.DS_Store
+Thumbs.db
+*~
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore FastAPI dependencies
+staticfiles/
+*.tar.gz
+*.whl
+
+# Ignore ML-related files and models
+*.h5
+*.pth
+*.pt
+*.onnx
+model/
+checkpoints/
+vehicle_data.csv  # Add this to ignore the generated data file
+
+# Ignore dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# Ignore Docker-related files
+Dockerfile
+
+# Ignore Git metadata (just in case)
+.git/
